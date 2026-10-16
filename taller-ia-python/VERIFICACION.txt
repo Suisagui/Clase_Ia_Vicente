@@ -1,4 +1,6 @@
-31 casos de ejecución correctos.
+39 comprobaciones correctas en total: 31 de los programas y 8 de los bloques A y B.
+
+Programas del bloque C y ejemplos guiados
 
 OK | 09_detector_saludo.py | ['HOLA'] -> 'Saludo detectado'
 OK | 09_detector_saludo.py | ['buenas tardes'] -> 'Saludo detectado'
