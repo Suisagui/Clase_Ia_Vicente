@@ -1,39 +1,28 @@
-# Primeros pasos con Python e inteligencia artificial
+# Clase de IA — Taller de Python
 
-Este repositorio reúne los ejercicios de la clase: desde entender qué imprime una condición hasta crear pequeños programas que clasifican mensajes con palabras clave.
+Ejercicios de la clase sobre condicionales, bucles y clasificación de mensajes mediante palabras clave.
 
-La idea es practicar lo básico de Python —variables, condiciones, listas y bucles— y usar Git y GitHub para guardar el avance del trabajo.
+## Archivos de la entrega
 
-## Qué encontrarás aquí
+- [Respuestas de los bloques A y B](taller-ia-python/Soluciones_bloques_A_y_B.docx): ejercicios 1 al 8 resueltos en Word.
+- [Programas del bloque C](taller-ia-python/bloque_c): un archivo Python por ejercicio, del 9 al 14.
+- [Ejercicios guiados](taller-ia-python/guiados): clasificador de intención y detector de spam, en Python y Jupyter.
 
-La entrega está organizada en la carpeta [taller-ia-python](taller-ia-python):
+## Cómo ejecutarlos
 
-- **[Bloques A y B en Word](taller-ia-python/Soluciones_bloques_A_y_B.docx):** respuestas de los ejercicios 1 al 8, con una explicación de cada resultado.
-- **[Bloque C en Python](taller-ia-python/bloque_c):** seis programas para detectar saludos, clasificar tickets, contar palabras sospechosas, analizar sentimientos, repetir mensajes y reconocer palíndromos.
-- **[Ejercicios guiados](taller-ia-python/guiados):** los cuadernos de clase y las versiones finales del clasificador de intención y del detector de spam.
-- **[Comprobaciones](taller-ia-python/VERIFICACION.txt):** resultados de los 39 casos revisados.
-
-## Cómo probar los programas
-
-Necesitas Python 3. Puedes descargar el repositorio desde **Code → Download ZIP**, descomprimirlo y abrir una terminal en su carpeta. Si usas Git, también puedes clonarlo:
+Se necesita Python 3. Descarga el repositorio desde **Code → Download ZIP** y descomprímelo, o clónalo:
 
 ```bash
 git clone https://github.com/Suisagui/Clase_Ia_Vicente.git
 cd Clase_Ia_Vicente
 ```
 
-Para empezar, prueba el detector de saludos:
+Desde la carpeta del repositorio, ejecuta el ejercicio que quieras probar. Por ejemplo:
 
 ```bash
 python taller-ia-python/bloque_c/09_detector_saludo.py
 ```
 
-El programa te pedirá un mensaje. Si escribes `Hola, ¿cómo estás?`, responderá `Saludo detectado`. Cada ejercicio se ejecuta por separado y los archivos `.py` no necesitan librerías adicionales.
+Escribe un mensaje cuando el programa lo pida. Con “hola” responde “Saludo detectado”.
 
-En la [guía del taller](taller-ia-python/README.md) están los comandos de los demás ejercicios y las reglas que utiliza cada uno.
-
-## Sobre las reglas
-
-Estos programas toman decisiones a partir de palabras que aparecen en el texto. Sirven para entender cómo construir una clasificación sencilla, pero todavía no interpretan el contexto. Por ejemplo, el analizador de sentimiento encuentra la palabra “feliz” incluso en “no estoy feliz”.
-
-El historial conserva los tres pasos principales del trabajo: el clasificador de intención, el detector de spam y la solución del banco práctico.
+Los archivos Python no requieren librerías adicionales. En el [README del taller](taller-ia-python/README.md) están los comandos de los demás ejercicios y las reglas utilizadas.
