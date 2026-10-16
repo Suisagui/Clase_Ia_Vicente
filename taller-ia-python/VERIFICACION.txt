@@ -1,0 +1,43 @@
+31 casos de ejecución correctos.
+
+OK | 09_detector_saludo.py | ['HOLA'] -> 'Saludo detectado'
+OK | 09_detector_saludo.py | ['buenas tardes'] -> 'Saludo detectado'
+OK | 09_detector_saludo.py | ['adiós'] -> 'Sin saludo'
+OK | 09_detector_saludo.py | [''] -> 'Sin saludo'
+OK | 10_clasificador_tickets.py | ['AYUDA'] -> 'Soporte'
+OK | 10_clasificador_tickets.py | ['comprar'] -> 'Ventas'
+OK | 10_clasificador_tickets.py | ['general'] -> 'Otro'
+OK | 10_clasificador_tickets.py | ['problema precio'] -> 'Soporte'
+OK | 11_palabras_sospechosas.py | ['urgente ganaste un premio'] -> 'Palabras sospechosas encontradas: 3'
+OK | 11_palabras_sospechosas.py | ['premio premio'] -> 'Palabras sospechosas encontradas: 1'
+OK | 11_palabras_sospechosas.py | [''] -> 'Palabras sospechosas encontradas: 0'
+OK | 11_palabras_sospechosas.py | ['gratis premio ganaste urgente haz clic contraseña'] -> 'Palabras sospechosas encontradas: 6'
+OK | 12_sentimiento_basico.py | ['feliz excelente'] -> 'Puntaje: 2\nPositivo'
+OK | 12_sentimiento_basico.py | ['malo terrible'] -> 'Puntaje: -2\nNegativo'
+OK | 12_sentimiento_basico.py | ['feliz triste'] -> 'Puntaje: 0\nNeutral'
+OK | 12_sentimiento_basico.py | [''] -> 'Puntaje: 0\nNeutral'
+OK | 13_repetir_hasta_salir.py | ['salir'] -> 'Programa finalizado'
+OK | 13_repetir_hasta_salir.py | ['hola', 'prueba', ' SALIR '] -> 'Mensaje recibido: hola\nMensaje recibido: prueba\nPrograma finalizado'
+OK | 14_palindromo.py | [' Reconocer '] -> 'Es palíndromo'
+OK | 14_palindromo.py | ['python'] -> 'No es palíndromo'
+OK | 14_palindromo.py | ['a'] -> 'Es palíndromo'
+OK | 14_palindromo.py | ['   '] -> 'Debes escribir una palabra'
+OK | guiado 1 | 'hola precio ayuda' -> Intención: consulta de precio
+OK | guiado 1 | 'ayuda hola' -> Intención: solicitud de ayuda
+OK | guiado 1 | 'hola' -> Intención: saludo
+OK | guiado 1 | 'chao' -> Intención: despedida
+OK | guiado 1 | 'otro' -> Intención desconocida
+OK | guiado 2 | riesgo 0 -> Mensaje normal
+OK | guiado 2 | riesgo 1 -> Mensaje sospechoso
+OK | guiado 2 | riesgo 2 -> Mensaje sospechoso
+OK | guiado 2 | riesgo 3 -> Posible spam
+
+8 comprobaciones adicionales de los bloques A y B correctas.
+OK | ejercicio 1 | salida: 'A'
+OK | ejercicio 2 | salida: 'Soporte'
+OK | ejercicio 3 | salida: 'False\nTrue'
+OK | ejercicio 4 | salida: 'Spam'
+OK | ejercicio 5 | salida: 'hola\nprecio\nayuda'
+OK | ejercicio 6 | salida: '4'
+OK | ejercicio 7 | salida: '2'
+OK | ejercicio 8 | salida: 'Probando\nProbando\nProbando'
